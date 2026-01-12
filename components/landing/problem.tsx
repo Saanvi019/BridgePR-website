@@ -8,7 +8,7 @@ export function ProblemsSection() {
   return (
     <section className="px-6 py-24 md:px-12 lg:px-40">
        <div className="mb-16 text-center">
-        <h2 className="text-3xl md:text-4xl font-sans text-white">
+        <h2 className="text-3xl md:text-4xl font-sans font-light text-white">
           What Bridge<span className="text-yellow-200">PR</span> solves
         </h2>
         <p className="mt-4 text-gray-400 max-w-2xl mx-auto">
