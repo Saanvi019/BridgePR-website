@@ -79,29 +79,19 @@ export function InstallationSticky() {
     >
       {/* Heading */}
       <div className="mb-20 text-center">
-        <h2 className="text-3xl md:text-4xl font-semibold text-white">
-          Install BridgePR
+        <h2 className="text-4xl md:text-5xl font-light text-white">
+          Install Bridge<span className="text-yellow-200">PR</span>
         </h2>
         <p className="mt-4 text-gray-400 max-w-xl mx-auto">
           Install once. BridgePR works automatically on every pull request.
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto font-light">
         <StickyScroll content={content} />
       </div>
 
-      {/* CTA */}
-      <div className="mt-24 text-center">
-        <a
-          href="https://github.com/apps/bridgepr"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center rounded-lg bg-white px-6 py-3 text-sm font-medium text-black hover:bg-gray-200 transition"
-        >
-          Install GitHub App
-        </a>
-      </div>
+      
     </section>
   );
 }
