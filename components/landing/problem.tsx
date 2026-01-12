@@ -16,7 +16,7 @@ export function ProblemsSection() {
         </p>
       </div>
 
-       <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-3 lg:gap-4 xl:max-h-136 xl:grid-rows-2">
+       <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-3 lg:gap-4 xl:max-h-120 xl:grid-rows-2">
       <GridItem
         area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
         icon={<Box className="h-4 w-4 text-white/60 dark:text-neutral-400" />}
@@ -83,10 +83,10 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
               {icon}
             </div>
             <div className="space-y-3">
-              <h3 className="-tracking-4 pt-0.5 font-sans text-xl/[1.375rem] font-light text-balance text-white md:text-2xl/[1.875rem] dark:text-white">
+              <h3 className="-tracking-4 pt-0.5 font-sans text-xl/[1.375rem] font-light text-balance text-white md:text-xl/[1.875rem] dark:text-white">
                 {title}
               </h3>
-              <h2 className="font-sans font-extralight text-sm/[1.125rem] text-white/60 md:text-base/[1.375rem] dark:text-neutral-400 [&_b]:md:font-semibold [&_strong]:md:font-semibold">
+              <h2 className="font-sans font-extralight text-sm/[1.125rem] text-white/60 md:text-sm/[1.375rem] dark:text-neutral-400 [&_b]:md:font-semibold [&_strong]:md:font-semibold">
                 {description}
               </h2>
             </div>
