@@ -10,7 +10,7 @@ import {
 
 const WarningExamples = () => {
   return (
-    <section className="w-full py-24 bg-black">
+    <section id="pr-types" className="w-full py-24 bg-black">
       <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-20">
         
         {/* Heading */}
@@ -101,7 +101,7 @@ const WarningExamples = () => {
             {/* Right */}
             <div className="relative w-full lg:w-[480px] h-[260px] md:h-[300px] flex items-center justify-center rounded-xl border border-black">
               <Image
-                src="/noPR.png"
+                src="/nothingPR.png"
                 alt="BridgePR safe backend change"
                 fill
                 className="object-contain rounded-xl border border-black"

@@ -16,7 +16,7 @@ const content = [
           alt="Install BridgePR GitHub App"
           width={800}
           height={500}
-          className="rounded-xl border border-white/10"
+          className=" rounded-xl border border-white/10"
         />
       </div>
     ),
@@ -42,7 +42,7 @@ const content = [
     description:
       "Once installed, BridgePR automatically listens to pull request events in your repository. There are no commands to run, no checks to trigger, and nothing new for your team to remember. Developers continue working exactly as they do today.",
     content: (
-      <div className="flex h-full w-full items-center justify-center bg-black">
+      <div className="flex h-full w-full items-center justify-center bg-black ">
         <Image
           src="/pullrequest.png"
           alt="Open a pull request"

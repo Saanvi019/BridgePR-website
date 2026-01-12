@@ -41,7 +41,7 @@ export default function Navbar() {
         {/* Links */}
         <div className="flex items-center gap-6">
           <Link
-            href="/documentation"
+            href="#working"
             className="text-sm text-gray-300 hover:text-amber-200 transition"
           >
             Documentation

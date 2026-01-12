@@ -4,6 +4,7 @@ import { ProblemsSection } from '@/components/landing/problem'
 import { InstallationSticky } from '@/components/landing/installation'
 import HowItWorksSection from '@/components/landing/howItWorks'
 import WarningExamples from '@/components/landing/examplePR'
+import Footer from '@/components/layout/footer'
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
     <InstallationSticky/>
     <HowItWorksSection/>
     <WarningExamples/>
+    <Footer/>
     </>
   )
 }

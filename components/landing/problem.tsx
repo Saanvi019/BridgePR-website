@@ -6,7 +6,7 @@ import { GlowingEffect } from "@/components/ui/glowing-effect";
 
 export function ProblemsSection() {
   return (
-    <section className="px-6 py-24 md:px-12 lg:px-40">
+    <section id="problems" className="px-6 py-24 md:px-12 lg:px-40">
        <div className="mb-16 text-center">
         <h2 className="text-3xl md:text-4xl font-sans font-light text-white">
           What Bridge<span className="text-yellow-200">PR</span> solves

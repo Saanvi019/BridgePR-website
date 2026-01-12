@@ -21,15 +21,14 @@ export function Hero() {
 
         <div className="mt-10 flex flex-col sm:flex-row items-center gap-4">
           <Link
-            href="/documentation"
+            href="#installation"
             className="rounded-lg bg-green-900 text-lg  px-6 py-3   text-white hover:bg-green-700 transition"
           >
             How ?
           </Link>
 
           <a
-            href="https://github.com/apps/bridgepr"
-            target="_blank"
+            href="#problems"
             className="rounded-lg border border-amber-300/50 px-6 py-3 text-lg text-white hover:bg-white/10 transition"
           >
             Why ?

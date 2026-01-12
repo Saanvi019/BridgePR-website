@@ -4,7 +4,7 @@ import React from "react";
 
 const HowItWorksSection = () => {
   return (
-    <section className="w-full py-24 bg-black">
+    <section id="working" className="w-full py-24 bg-black">
       <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-20">
         
         {/* Heading */}
