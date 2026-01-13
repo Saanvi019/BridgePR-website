@@ -35,7 +35,7 @@ export function ProblemsSection() {
         area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
         icon={<Lock className="h-4 w-4 text-white/60 dark:text-neutral-400" />}
         title="PR reviews miss integration impact"
-        description="Code reviews focus on logic, not how backend changes affect frontend usage across the repo."
+        description="Most pull request reviews focus on whether the backend logic is correct and tests are passing. What often gets missed is how response changes affect frontend code elsewhere in the repo. A small backend change can silently break UI components without being noticed during review."
       />
 
       <GridItem
