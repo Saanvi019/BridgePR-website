@@ -28,7 +28,7 @@ const content = [
     content: (
       <div className="flex h-full w-full items-center justify-center bg-black">
         <Image
-          src="/select.jpeg"
+          src="/selectrepo.jpeg"
           alt="Select repositories"
           width={800}
           height={500}
